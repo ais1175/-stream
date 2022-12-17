@@ -1,0 +1,24 @@
+{
+  "name": "sicbo-push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start --env production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.7.7",
+    "http": "^0.0.0",
+    "ioredis": "^4.2.0",
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0",
+    "log4js": "^3.0.6",
+    "node-fetch": "^2.3.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.2.0"
+  }
+}
